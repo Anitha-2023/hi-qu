@@ -5,3 +5,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.nav-bar {
+  max-width: 1170px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 20px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.startup-logo {
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e0e62;
+}
+
+.nav-btn,
+.nav-bar-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-decoration: none;
+  color: #1e0e62;
+}
+
+.nav-btn {
+  width: 100px;
+  height: 40px;
+  border: transparent;
+  background: transparent;
+}
+
+.primary-btn {
+  border-radius: 100px;
+  border: 2px solid #ebeaed;
+}
