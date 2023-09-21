@@ -5,3 +5,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.nav-bar {
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-list {
+  list-style: none;
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.startup {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  text-decoration: none;
+  /* gap: 31px; */
+  color: #1e0e62;
+  align-self: flex-start;
+}
+.nav-bar-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 26px;
+  text-decoration: none;
+  gap: 31px;
+  color: #1e0e62;
+  align-self: flex-end;
+}
