@@ -7,34 +7,46 @@
 }
 
 .nav-bar {
-  width: 100vw;
-  height: 100vh;
+  max-width: 1170px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 20px;
 }
 
 .nav-list {
   list-style: none;
-  margin-top: 35px;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
 }
 
-.startup {
+.startup-logo {
   font-family: "DM Sans", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 26px;
-  text-decoration: none;
-  /* gap: 31px; */
+  font-size: 24px;
+  font-weight: 700;
   color: #1e0e62;
-  align-self: flex-start;
 }
+
+.nav-btn,
 .nav-bar-text {
   font-family: "DM Sans", sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 26px;
   text-decoration: none;
-  gap: 31px;
   color: #1e0e62;
-  align-self: flex-end;
+}
+
+.nav-btn {
+  width: 100px;
+  height: 40px;
+  border: transparent;
+  background: transparent;
+}
+
+.primary-btn {
+  border-radius: 100px;
+  border: 2px solid #ebeaed;
 }
