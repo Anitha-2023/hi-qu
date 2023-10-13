@@ -31,7 +31,7 @@
 .startup-logo {
   font-family: "DM Sans", sans-serif;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 100;
   color: #1e0e62;
 }
 
@@ -74,4 +74,66 @@
     flex-direction: column;
     align-items: center;
   }
+}
+
+.hero-text {
+  color: #1e0e62;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  size: 58px;
+  line-height: 70px;
+  text-align: center;
+  margin-inline: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-text {
+    size: 40px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-text {
+    size: 30px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero-text {
+    font-size: 17px;
+  }
+}
+
+.get-started-btn {
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 20px;
+  width: 120px;
+  height: 40px;
+  border-radius: 200px;
+  background: #25dac5;
+  border: 2px solid #25dac5;
+  color: white;
+}
+
+.get-startedbtn-wrapper {
+  text-align: center;
+}
+@media screen and (max-width: 425px) {
+  .get-startedbtn-wrapper {
+    text-align: center;
+  }
+}
+.macbook-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-responsive {
+  max-width: 100%;
+  height: auto;
 }
